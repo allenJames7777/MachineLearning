@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="result" method="post">
+        <label for="job">Job: </label>
+        <select name="job" id="job">
+            <option value="">admin</option>
+            <option value="">blue-collar</option>
+            <option value="">entrepreneur</option>
+            <option value="">housemaid</option>
+            <option value="">management</option>
+            <option value="">retired</option>
+            <option value="">self-employed</option>
+            <option value="">services</option>
+            <option value="">student</option>
+            <option value="">technician</option>
+            <option value="">unemployed</option>
+            <option value="">unknown</option>
+        </select>
+    <br>        
+    <label for="marital_status">Marital Status: </label>
+        <select name="marital_status" id="marital_status">
+            <option value="">divorced</option>
+            <option value="">married</option>
+            <option value="">single</option>
+        </select>    
+    <br>
+    <label for="education">Education: </label>
+        <select name="education" id="education">
+            <option value="">primary</option>
+            <option value="">secondary</option>
+            <option value="">tertiary</option>
+            <option value="">unknown</option>
+        </select>   
+<br>
+    <label for="housing">Housing: </label>
+        <select name="housing" id="housing">
+            <option value="">no</option>
+            <option value="">yes</option>
+        </select>       
+<br>
+    <label for="loan">Loan:</label>
+        <select name="loan" id="loan">
+            <option value="">no</option>
+            <option value="">yes</option>
+        </select>      
+<br>
+    <label for="contact">Contact:</label>
+        <select name="contact" id="contact">
+         <option value="">cellular</option>
+         <option value="">telephone</option>
+         <option value="">unknown</option>
+</select>      
+<br>
+    <label for="month">Month:</label>
+        <select name="month" id="month">
+        <option value="">January</option>
+        <option value="">February</option>
+        <option value="">March</option>
+        <option value="">April</option>
+        <option value="">May</option>
+        <option value="">June</option>
+        <option value="">July</option>
+        <option value="">August</option>
+        <option value="">September</option>
+        <option value="">October</option>
+        <option value="">November</option>
+        <option value="">December</option>
+</select>  
+<br>
+<label for="outcome">Outcome:</label>
+        <select name="outcome" id="outcome">
+         <option value="">failure</option>
+         <option value="">other</option>
+         <option value="">success</option>
+         <option value="">unknown</option>
+</select>
+<br>
+<label for="target">Target:</label>
+    <select name="target" id="target">
+        <option value="">no</option>
+        <option value="">yes</option>
+</select>
+<br>
+    <input type="file" name="input_file" id="indput_file">
+<br>
+<br>
+
+<table>
+<label>CLASSIFIER: </label>
+<tr>
+    <th>
+    <input type="radio" id="linear_regression" name="CLASSIFIER" value="Linear Regression">
+      <label for="">Linear Regression</label>
+</th>
+<th>
+    <input type="radio" id="nearest_neighbor" name="CLASSIFIER" value="Nearest Neighbor">
+      <label for="">Nearest Neighbor</label>
+</th>
+<th>
+    <input type="radio" id="naive_bayes" name="CLASSIFIER" value="Naive Bayes">
+      <label for="">Naive Base</label>
+</th>
+</tr>
+
+<br>
+<tr>
+    <th>
+    <input type="radio" id="svm" name="CLASSIFIER" value="SVM">
+      <label for="">SVM</label>
+    </th>
+    <th>
+    <input type="radio" id="decision_tree" name="CLASSIFIER" value="Decision Tree" checked>
+      <label for="">Decision Tree</label>
+    </th>
+    <th>
+    <input type="radio" id="ann" name="CLASSIFIER" value="ANN">
+      <label for="">ANN</label>
+</th>
+</tr>
+</table>
+<input type="submit" value="CLASSIFY" id="classify">
+
+
+
+
+    </form>
+
+<script>
+
+
+</script>
+</body>
+</html>
